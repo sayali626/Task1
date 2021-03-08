@@ -1,0 +1,398 @@
+<html>
+<head>
+	<title> webpage1 </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<!-- font awesome icon -->
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--  footer CDN -->
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+	
+<style type="text/css">
+header {
+	position: relative;
+	height: 550px;
+	background-color: #1a75ff;
+	border-bottom-left-radius: 50% 20%;
+	border-bottom-right-radius: 50% 20%;
+}
+h1{
+	padding-top: 100px;
+	margin-left:150px;
+	font: 44px "Arial";
+}
+header h1,p {
+	color: white;
+}
+header p {
+	padding-top: 0px;
+	margin-left:150px;
+	font-size:15px;
+}
+.img {	
+	margin-left:500px;
+	height: 200px;
+}
+.row1 {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 10px;
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+.col-md-4 {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	min-height: 170px; min-width:300px;
+	border:0;
+	border-radius:4px;
+	padding:20px;
+}
+h5 {
+    font-size: 1rem;
+    line-height: 1.375;
+	font-family: Rubik,Arial,sans-serif;
+    font-weight: 500;
+    color: white;
+}
+footer span {
+	color:white;
+}
+a {
+  color: #818494;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+footer {
+  background: #525C70;
+  margin-top:100px;
+}
+.nav-link {
+	color:white;
+}
+</style>
+</head>
+
+<body>
+<!-- header section -->
+
+<header>	
+<div class="container-fluid">
+ <span style="font-size:30px;font-weight:bold;padding-left:100px;"> Webpage </span>
+
+<ul class="nav justify-content-end">
+	<li class="nav-item" >
+		<a class="nav-link" href="#">Home</a>
+	</li>
+    <li class="nav-item">
+		<a class="nav-link" href="#">Our Pricing</a>
+    </li>
+    <li class="nav-item">
+		<a class="nav-link" href="#">About Us</a>
+    </li>
+	<li class="nav-item">
+		<a class="nav-link" href="#">Services</a>
+    </li>
+	<li class="nav-item">
+		<a class="nav-link" href="#">News</a>
+    </li>
+	<li class="nav-item">
+		<a class="nav-link" href="#">Page</a>
+    </li>
+	<button style="background-color:blue;color:white;border:1px solid blue;border-radius:30px;font-weight:bold;">
+		Free Trial 
+	</button> 
+</ul>
+
+	<h1>Great Features With <br> Ultimate Web App.</h1>
+	<p> Speak with a result specialist today to get started with SEO, PPC,<br> Social media, web design & more.</p><br>
+
+
+<button class="btn btn-outline-dark btn-icon-text" style="margin-left:150px;"> 
+	<i class="fa fa-apple btn-icon-prepend mdi-36px"></i> 
+		<span class="d-inline-block text-left"> <small class="d-block">Available on the</small> App Store </span> 
+</button> 
+<button class="btn btn-outline-dark btn-icon-text" style="margin-left:10px;">
+	<i class="fa fa-android btn-icon-prepend mdi-36px"></i> 
+		<span class="d-inline-block text-left"> <small class="d-block">Get it on the</small> Google Play </span>
+</button> 
+
+	
+</div>
+</header>
+
+<!-- header section end here -->
+
+<br><br><br>
+
+<!-- main content starts -->
+<span style="text-align:center;">
+	<h2 style="font-size:50px;"> Our services </h2>
+	<h6 style="font-weight:normal;font-size:20px;"> 
+		Lorem Ipsum is simply dummy text of theprinting and typesetting industry. <br>
+		Lorem Ipsum has been the industry's standard.
+	</h6>
+</span>
+
+<br><br><br>
+
+<div class="container">
+<div class="row">
+	<div class="col-sm-6">
+		<img src="img/img12.jpg" height="400" width="450">
+	</div>
+	<!-- text -->
+	<div class="col-sm-6">
+		<i class="fa fa-info-circle" style="font-size:30px;padding-right:30px;"></i>
+			<span onclick="myFunc1()" style="font-weight:bold;font-size:20px;">  Cloud Data Backup Free </span> <br><br>
+			<span style="text-justify:auto;">
+			find all what you search -  free software, download movies,
+			films, calls,add url free and many other not only free but and qualitatives sites.</span>
+			<br><br><br>
+			
+		<i class="fa fa-briefcase" style="font-size:30px;padding-right:30px;"></i>
+			<span onclick="myFunc2()" style="font-weight:bold;font-size:20px;"> Reporting Every Day </span> <br><br>
+			<span style="text-justify:auto;">
+			find all what you search -  free software, download movies,
+			films, calls,add url free and many other not only free but and qualitatives sites.</span>
+			<br><br><br>
+			
+		<i class="fa fa-android" style="font-size:30px;padding-right:30px;"></i>
+			<span onclick="myFunc3()" style="font-weight:bold;font-size:20px;">Payment Methods Security  </span>  <br><br>
+			<span style="text-justify:auto;">
+			find all what you search -  free software, download movies,
+			films, calls,add url free and many other not only free but and qualitatives sites.</span>
+			<br><br><br>
+		
+	</div>
+</div>
+</div> 
+<!-- content 1 end -->
+
+<br><br>
+
+<!-- content 2 starts -->
+<div class="container">
+<div class="row">
+	<div class="col-sm-6">
+		<h2>Some About Unique Features</h2>
+		<span >It was at that moment that I received my first lesson in advertising specialities.</span><br><br>
+		<div class="container">
+			<div class="row">
+			<div class="col">
+			<i class="fa fa-gear" style="font-size:30px;border-radius:5px;"></i> <br>
+				<h5> Easy Customization </h5>
+				<span> It can also have much more detail, such as name to contact </span>
+			</div>
+			<div class="col">
+			<i class="fas fa-cloud-upload-alt" style="font-size:30px;border-radius:5px;"></i> <br>
+				<h5> Easy Customization </h5>
+				<span> A successful marketing plan relies heavily on the pulling </span>
+			</div>
+		</div></div> <br>
+		<a href="#" style="font-size:16px;"> Get the App <i class="fa fa-arrow-right" style="font-size:20px;"></i></a>
+	</div>
+	
+	<div class="col-sm-6">
+		<p>Image at the top (card-img-top):</p>
+		<div class="card" style="width:400px">
+			<img class="card-img-top" src="#" alt="Card image" style="width:100%">
+			<div class="card-body">
+				<h4 class="card-title">John Doe</h4>
+				<p class="card-text">Some example text some example text. </p>
+				<a href="#" class="btn btn-primary">See Profile</a>
+			</div>	
+		</div>
+	</div>
+	
+</div></div>
+<!-- content 2 end -->
+
+<br><br><br><br><br><br>
+
+<!-- content 3 start here -->
+<div class="container-fluid" style="background-color:#3366ff;">
+<div class="row1">
+<div class="col-md-4" style="border:0;color:white;">
+	<h2> Our Features</h2>
+	<span>Just take one day and set it aside for posting to free directories.You won't need to do it again for at least 6 months</span>
+</div>
+<div class="col-md-4" style="background-color: white;">
+	<h2><i class="fa fa-user" style="color:#3366ff;font-size:24px;"></i> Stay Connected</h2>
+	<span>Just take one day and set it aside for posting to free directories.You won't need to do it again for at least 6 months</span>
+</div>
+<div class="col-md-4" style="background-color: white;">
+	<h2><i class="fas fa-globe" style="color:#3366ff;font-size:24px;"></i> Multi Language</h2>
+	<span>Just take one day and set it aside for posting to free directories.You won't need to do it again for at least 6 months</span>
+</div></div>
+
+<div class="row1">
+<div class="col-md-4" style="background-color: white;">
+	<h2><i class="fa fa-upload" style="color:#3366ff;font-size:24px;"></i> Free Updates </h2>
+	<span>Just take one day and set it aside for posting to free directories.You won't need to do it again for at least 6 months</span>
+</div>
+
+<div class="col-md-4" style="background-color: white;">
+	<h2> <i class='fas fa-shield-alt' style="color:#3366ff;font-size:24px;"></i> Secure Data</h2>
+	<span>Just take one day and set it aside for posting to free directories.You won't need to do it again for at least 6 months</span>
+</div>
+<div class="col-md-4" style="background-color: white;">
+	<h2><i class="fa fa-print" style="color:#3366ff;font-size:24px;"></i> Support 24/7</h2>
+	<span>Just take one day and set it aside for posting to free directories.You won't need to do it again for at least 6 months</span>
+</div></div>
+</div>
+
+<!-- content 3 start here -->
+
+<br><br><br>
+<br><br><br>
+
+<!-- -->
+<div class="container">
+<div class="row">
+	<div class="col-sm-6">
+		<img src="img/img1.png" height="300" width="400">
+	</div>
+	<div class="col-sm-6">
+		<h2>Safety and Security</h2><br><br>
+		<span>
+			Among the entire methods billboard advertising is the most sort after method.<br><br>
+			<ul style="list-style-type:none;line-height: 1.6;">
+				<li><i class="fa fa-check" style="color:blue;"></i> Ut iaculis massa sed turpis aiquet, at dacilisis arcu maximus </li>
+				<li><i class="fa fa-check" style="color:blue;"></i> Ut iaculis massa sed turpis aiquet, at dacilisis arcu maximus </li>
+				<li><i class="fa fa-check" style="color:blue;"></i> Ut iaculis massa sed turpis aiquet, at dacilisis arcu maximus </li>
+			</ul>
+		</span><br>
+		<a href="#" style="font-size:16px;"> Learn more <i class="fa fa-arrow-right" style="font-size:20px;"></i></a>
+	</div>
+</div>
+</div>
+<!-- -->
+
+<br><br><br><br><br><br>
+
+
+<div class="container-fluid" style="background-color:#3366ff;padding:40px;color:white;padding-left:150px;">
+<div class="row">
+	<div class="col-sm-6">
+		<span style="font-size:40px;font-weight:bold;"> Try 30 Days Free </span>
+		<h6> No Credit Card Required </h6>
+	</div>
+	<div class="col-sm-6">
+	 <button class="btn btn-light" style="float:right;margin-right:250px;background-color:white;margin-top:30px;"> Getting Started 
+		  <i class="fa fa-arrow-right" style="font-size:15px;"></i></button>
+	</div>
+</div></div>
+
+<br><br><br>
+<!-- -->
+<span style="text-align:center;padding-top:50px;">
+	<h2 style="font-size:50px;"> Our Testimonials </h2>
+	<h6 style="font-weight:normal;font-size:15px;"> 
+		Lorem Ipsum is simply dummy text of theprinting and typesetting industry. <br>Lorem Ipsum has been the industry's standard.
+	</h6>
+</span>
+<!-- -->
+
+<br><br><br><br><br><br>
+
+
+
+
+<!-- footer code start -->
+<footer>
+<div class="container pt-5 border-bottom">
+<div class="row">
+	<div class="col-md-3 col-sm-12 mb-3 text-left">
+		<h5>Webpae</h5>
+			<span>
+				(+12)345-678-91012
+				NewYork,NY,256364,United States 
+				Contact@example.com
+			</span> <br><br>
+				<i class="fa fa-facebook mr-1"></i>
+				<i class="fa fa-twitter mr-1"></i>
+				<i class="fa fa-youtube mr-1"></i>
+        </div>     
+                
+<div class="col-md-9 col-sm-12">
+	<div class="col-md-3 col-sm-6 col-6 p-0 float-left mb-3">
+		<h5 class="mb-4 font-weight-bold text-uppercase">Product</h5>
+         <ul class="list-group">
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">How it Works?</a></li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">Download App</a></li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">Terms of Service</a></li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">Privacing Price</a></li>
+         </ul>
+	</div>
+
+	<div class="col-md-3 col-sm-6 col-6 p-0 mb-3 float-left">
+		<h5 class="mb-4 font-weight-bold text-uppercase">Services</h5>
+        <ul class="list-group">
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">Graphics</a></li>
+		  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">Web Design</a></li>
+		  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">Web Development</a></li>
+		  <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">SEO</a></li>
+        </ul>
+	</div>
+	
+	<div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left">	
+		<h5 class="mb-4 font-weight-bold text-uppercase">Our Link</h5>
+		 <ul class="list-group">
+			<li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#"></i>Help</a></li>
+		    <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#"></i>Support</a></li>
+		    <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#"></i>Client</a></li>
+		    <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#"></i>Contact</a></li> 
+        </ul>
+	</div>
+
+    <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left">
+       <h5 class="mb-4 font-weight-bold text-uppercase">Get App</h5>  
+	  
+		<div class="page-content page-container" id="page-content">
+			<div class="padding">
+				<div class="row container d-flex justify-content-center">
+             <div class="template-demo mt-2">
+			<button class="btn btn-outline-dark btn-icon-text"> 
+					<i class="fa fa-apple btn-icon-prepend mdi-36px"></i> 
+					<span class="d-inline-block text-left"> <small class="font-weight-light d-block">Available on the</small> App Store </span> </button> <br><br>
+				<button class="btn btn-outline-dark btn-icon-text"> 
+				<i class="fa fa-android btn-icon-prepend mdi-36px"></i> 
+				<span class="d-inline-block text-left"> <small class="font-weight-light d-block">Get it on the</small> Google Play </span> </button> </div>
+         </div></div></div>
+		 <!-- main div close -->
+        </div>
+      </div>
+<!-- copyright code -->	  
+        <div class="col-md-12">
+          <div class="py-4 d-flex justify-content-left align-items-left">
+            <a class="mr-4" href="#">&copy; Copyright 2019 All rights Reserved</a>
+          </div>
+        </div>
+    </div>
+  </div>
+</footer>
+<!-- footer end here-->
+
+
+
+
+
+<!-- footer CDN -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'></script>
+
+</body>
+</html>
